@@ -1,5 +1,4 @@
-# HashMicro Frontend Test — Test 1
-
+# HashMicro Web
 Blog-style web page built as part of the HashMicro Mid-Level Front End Developer assessment.
 
 ## Preview
