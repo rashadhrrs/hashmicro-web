@@ -1,0 +1,374 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="HashMicro — Think Forward. A modern blog showcasing the best of technology and lifestyle."
+    />
+    <title>HashMicro | Think Forward</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;600;700&family=Open+Sans:ital,wght@0,300;0,400;0,600;1,300;1,400&display=swap"
+    />
+
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header class="hero" role="banner">
+      <!-- Dark tint overlay for text legibility -->
+      <div class="hero__overlay" aria-hidden="true"></div>
+
+      <!-- Centred branding block -->
+      <div class="hero__branding">
+        <div class="hero__logo">
+          <img
+            src="images/hashmicro-logo.svg"
+            alt="HashMicro Cloud Logo"
+            width="72"
+            height="65"
+          />
+        </div>
+
+        <h1 class="hero__title">HASHMICRO</h1>
+        <p class="hero__tagline">THINK FORWARD</p>
+
+        <div class="hero__social" role="list" aria-label="Social Media Links">
+          <a
+            href="#"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Follow us on Facebook"
+            class="social-icon"
+            role="listitem"
+            ><i class="fab fa-facebook-f" aria-hidden="true"></i
+          ></a>
+
+          <a
+            href="#"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Follow us on Twitter"
+            class="social-icon"
+            role="listitem"
+            ><i class="fab fa-twitter" aria-hidden="true"></i
+          ></a>
+
+          <a
+            href="#"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Follow us on Pinterest"
+            class="social-icon"
+            role="listitem"
+            ><i class="fab fa-pinterest-p" aria-hidden="true"></i
+          ></a>
+
+          <a
+            href="#"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Follow us on Instagram"
+            class="social-icon"
+            role="listitem"
+            ><i class="fab fa-instagram" aria-hidden="true"></i
+          ></a>
+
+          <a
+            href="#"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Follow us on Vimeo"
+            class="social-icon"
+            role="listitem"
+            ><i class="fab fa-vimeo-v" aria-hidden="true"></i
+          ></a>
+        </div>
+      </div>
+    </header>
+
+    <nav
+      id="main-nav"
+      class="main-nav"
+      role="navigation"
+      aria-label="Main Navigation"
+    >
+      <div class="nav__container">
+        <!-- Menu items -->
+        <ul class="nav__menu" role="menubar">
+          <li role="none">
+            <a href="#" class="nav__link nav__link--active" role="menuitem"
+              >Home</a
+            >
+          </li>
+          <li role="none">
+            <a href="#" class="nav__link" role="menuitem">Features</a>
+          </li>
+          <li role="none">
+            <a href="#" class="nav__link" role="menuitem">Layouts</a>
+          </li>
+          <li role="none">
+            <a href="#" class="nav__link" role="menuitem">Pages</a>
+          </li>
+          <li role="none">
+            <a href="#" class="nav__link" role="menuitem">Light Version</a>
+          </li>
+        </ul>
+
+        <!-- Search -->
+        <div class="nav__search" role="search">
+          <input
+            type="text"
+            class="nav__search-input"
+            placeholder="Search and hit enter..."
+            aria-label="Search"
+          />
+          <button class="nav__search-btn" aria-label="Submit search">
+            <i class="fas fa-search" aria-hidden="true"></i>
+          </button>
+        </div>
+
+        <button
+          class="nav__hamburger"
+          aria-label="Toggle navigation menu"
+          aria-expanded="false"
+          aria-controls="main-nav"
+        >
+          <span class="nav__hamburger-bar"></span>
+          <span class="nav__hamburger-bar"></span>
+          <span class="nav__hamburger-bar"></span>
+        </button>
+      </div>
+    </nav>
+
+    <main class="site-content" id="main-content">
+      <section class="posts-grid" aria-label="Blog Posts">
+        <!-- Card 1 -->
+        <article
+          class="card"
+          style="background-image: url(&quot;images/post-1.jpg&quot;)"
+          aria-label="Blog post: Autumn Chestnut Rice"
+        >
+          <div class="card__overlay">
+            <div class="card__category">
+              <span class="card__deco" aria-hidden="true">✦ ✦ ✦</span>
+              <span class="card__category-name">Repice</span>
+              <span class="card__deco" aria-hidden="true">✦ ✦ ✦</span>
+            </div>
+            <h2 class="card__title">Autumn Chestnut Rice</h2>
+            <p class="card__date">August 7, 2015</p>
+          </div>
+        </article>
+
+        <!-- Card 2 -->
+        <article
+          class="card"
+          style="background-image: url(&quot;images/post-2.jpg&quot;)"
+          aria-label="Blog post: Travel The Word"
+        >
+          <div class="card__overlay">
+            <div class="card__category">
+              <span class="card__deco" aria-hidden="true">✦ ✦ ✦</span>
+              <span class="card__category-name">Repice / Stories</span>
+              <span class="card__deco" aria-hidden="true">✦ ✦ ✦</span>
+            </div>
+            <h2 class="card__title">Travel The Word</h2>
+            <p class="card__date">August 20, 2015</p>
+          </div>
+        </article>
+
+        <!-- Card 3 -->
+        <article
+          class="card"
+          style="background-image: url(&quot;images/post-3.jpg&quot;)"
+          aria-label="Blog post: Diary of Mine"
+        >
+          <div class="card__overlay">
+            <div class="card__category">
+              <span class="card__deco" aria-hidden="true">✦ ✦ ✦</span>
+              <span class="card__category-name">Stories</span>
+              <span class="card__deco" aria-hidden="true">✦ ✦ ✦</span>
+            </div>
+            <h2 class="card__title">Diary of Mine</h2>
+            <p class="card__date">August 18, 2015</p>
+          </div>
+        </article>
+
+        <!-- Card 4 -->
+        <article
+          class="card"
+          style="background-image: url(&quot;images/post-4.jpg&quot;)"
+          aria-label="Blog post: Golden Morning Brew"
+        >
+          <div class="card__overlay">
+            <div class="card__category">
+              <span class="card__deco" aria-hidden="true">✦ ✦ ✦</span>
+              <span class="card__category-name">Lifestyle</span>
+              <span class="card__deco" aria-hidden="true">✦ ✦ ✦</span>
+            </div>
+            <h2 class="card__title">Golden Morning Brew</h2>
+            <p class="card__date">September 3, 2015</p>
+          </div>
+        </article>
+
+        <!-- Card 5 -->
+        <article
+          class="card"
+          style="background-image: url(&quot;images/post-5.jpg&quot;)"
+          aria-label="Blog post: Into The Wild Green"
+        >
+          <div class="card__overlay">
+            <div class="card__category">
+              <span class="card__deco" aria-hidden="true">✦ ✦ ✦</span>
+              <span class="card__category-name">Nature / Stories</span>
+              <span class="card__deco" aria-hidden="true">✦ ✦ ✦</span>
+            </div>
+            <h2 class="card__title">Into The Wild Green</h2>
+            <p class="card__date">September 11, 2015</p>
+          </div>
+        </article>
+
+        <!-- Card 6 -->
+        <article
+          class="card"
+          style="background-image: url(&quot;images/post-6.jpg&quot;)"
+          aria-label="Blog post: Sweet Afternoon"
+        >
+          <div class="card__overlay">
+            <div class="card__category">
+              <span class="card__deco" aria-hidden="true">✦ ✦ ✦</span>
+              <span class="card__category-name">Repice</span>
+              <span class="card__deco" aria-hidden="true">✦ ✦ ✦</span>
+            </div>
+            <h2 class="card__title">Sweet Afternoon</h2>
+            <p class="card__date">September 22, 2015</p>
+          </div>
+        </article>
+
+        <!-- Card 7 -->
+        <article
+          class="card"
+          style="background-image: url(&quot;images/post-1.jpg&quot;)"
+          aria-label="Blog post: Autumn Chestnut Rice"
+        >
+          <div class="card__overlay">
+            <div class="card__category">
+              <span class="card__deco" aria-hidden="true">✦ ✦ ✦</span>
+              <span class="card__category-name">Repice</span>
+              <span class="card__deco" aria-hidden="true">✦ ✦ ✦</span>
+            </div>
+            <h2 class="card__title">Autumn Chestnut Rice</h2>
+            <p class="card__date">August 7, 2015</p>
+          </div>
+        </article>
+
+        <!-- Card 8 -->
+        <article
+          class="card"
+          style="background-image: url(&quot;images/post-2.jpg&quot;)"
+          aria-label="Blog post: Travel The Word"
+        >
+          <div class="card__overlay">
+            <div class="card__category">
+              <span class="card__deco" aria-hidden="true">✦ ✦ ✦</span>
+              <span class="card__category-name">Repice / Stories</span>
+              <span class="card__deco" aria-hidden="true">✦ ✦ ✦</span>
+            </div>
+            <h2 class="card__title">Travel The Word</h2>
+            <p class="card__date">August 20, 2015</p>
+          </div>
+        </article>
+
+        <!-- Card 9 -->
+        <article
+          class="card"
+          style="background-image: url(&quot;images/post-3.jpg&quot;)"
+          aria-label="Blog post: Diary of Mine"
+        >
+          <div class="card__overlay">
+            <div class="card__category">
+              <span class="card__deco" aria-hidden="true">✦ ✦ ✦</span>
+              <span class="card__category-name">Stories</span>
+              <span class="card__deco" aria-hidden="true">✦ ✦ ✦</span>
+            </div>
+            <h2 class="card__title">Diary of Mine</h2>
+            <p class="card__date">August 18, 2015</p>
+          </div>
+        </article>
+
+        <!-- Card 10 -->
+        <article
+          class="card"
+          style="background-image: url(&quot;images/post-4.jpg&quot;)"
+          aria-label="Blog post: Golden Morning Brew"
+        >
+          <div class="card__overlay">
+            <div class="card__category">
+              <span class="card__deco" aria-hidden="true">✦ ✦ ✦</span>
+              <span class="card__category-name">Lifestyle</span>
+              <span class="card__deco" aria-hidden="true">✦ ✦ ✦</span>
+            </div>
+            <h2 class="card__title">Golden Morning Brew</h2>
+            <p class="card__date">September 3, 2015</p>
+          </div>
+        </article>
+
+        <!-- Card 11 -->
+        <article
+          class="card"
+          style="background-image: url(&quot;images/post-5.jpg&quot;)"
+          aria-label="Blog post: Into The Wild Green"
+        >
+          <div class="card__overlay">
+            <div class="card__category">
+              <span class="card__deco" aria-hidden="true">✦ ✦ ✦</span>
+              <span class="card__category-name">Nature / Stories</span>
+              <span class="card__deco" aria-hidden="true">✦ ✦ ✦</span>
+            </div>
+            <h2 class="card__title">Into The Wild Green</h2>
+            <p class="card__date">September 11, 2015</p>
+          </div>
+        </article>
+
+        <!-- Card 12 -->
+        <article
+          class="card"
+          style="background-image: url(&quot;images/post-6.jpg&quot;)"
+          aria-label="Blog post: Sweet Afternoon"
+        >
+          <div class="card__overlay">
+            <div class="card__category">
+              <span class="card__deco" aria-hidden="true">✦ ✦ ✦</span>
+              <span class="card__category-name">Repice</span>
+              <span class="card__deco" aria-hidden="true">✦ ✦ ✦</span>
+            </div>
+            <h2 class="card__title">Sweet Afternoon</h2>
+            <p class="card__date">September 22, 2015</p>
+          </div>
+        </article>
+      </section>
+    </main>
+
+    <footer class="site-footer" role="contentinfo">
+      <p class="site-footer__copy">
+        &copy; 2026 HashMicro. All rights reserved.
+      </p>
+    </footer>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
